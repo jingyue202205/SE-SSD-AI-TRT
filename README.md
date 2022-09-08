@@ -30,7 +30,7 @@ include_directories(/home/xxx/softwares/nvidia/TensorRT-8.0.1.6/include)
 link_directories(/home/xxx/softwares/nvidia/TensorRT-8.0.1.6/lib)
 Change these two lines to your own path
 
-cd se-SSD-AI-TRT
+cd SE-SSD-AI-TRT
 mkdir build
 cd build
 cmake ..
