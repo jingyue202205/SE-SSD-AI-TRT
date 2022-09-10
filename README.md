@@ -45,7 +45,7 @@ predicted outputs saved in SE-SSD-AI-TRT/data/outputs folder
 2. show predicted 3D boxes in the lidar frame 
 
 ```
-fristly install python moudles by tools/requirements.txt
+fristly install python moudles by tools/requirements.txt. for show boxes in points, just install mayavi
 cd tools
 python show_box_in_points.py
 warning: do not close current Mayavi Scene window, type c in running terminal, 
