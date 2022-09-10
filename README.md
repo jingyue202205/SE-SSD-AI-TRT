@@ -19,7 +19,7 @@ SE-SSD consists of six parts:
 
 ## How to Run
 
-1. build SE-SSD-AI-TRT and run
+1. **build SE-SSD-AI-TRT and run**
 
 ```
 firstly, install TensorRT,my environment is ubuntu 18.04, cuda 10.2,cudnn8.2.
@@ -42,7 +42,7 @@ predicted outputs saved in SE-SSD-AI-TRT/data/outputs folder
 ```
 **one frame takes about 1-2 seconds on my laptop with Intel(R) Core(TM) i5-7300HQ and NVIDIA GeForce GTX 1050 Mobile(1050ti), it is very slow, needs to be optimized in  the future.**
 
-2. show predicted 3D boxes in the lidar frame 
+2. **show predicted 3D boxes in the lidar frame** 
 
 ```
 fristly install python moudles by tools/requirements.txt. for show boxes in points, just install mayavi
