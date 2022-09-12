@@ -61,7 +61,7 @@ if An error occurred like: qt.qpa.plugin: Could not load the Qt platform plugin 
 just delete it by run: sudo rm -rf /home/xxx/anaconda3/envs/pc_show/lib/python3.6/site-packages/cv2/qt/plugins
 and try again
 
-warning: do not close current Mayavi Scene window, type c in running terminal, 
+warning: do not close current Mayavi Scene window, type c in running terminal and press Enter,
 it will show next lidar frame with predited 3d boxes in current Mayavi Scene window. 
 
 ```
