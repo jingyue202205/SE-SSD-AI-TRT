@@ -45,9 +45,22 @@ predicted outputs saved in SE-SSD-AI-TRT/data/outputs folder
 2. **show predicted 3D boxes in the lidar frame** 
 
 ```
-fristly install python moudles by tools/requirements.txt. for show boxes in points, just install mayavi
+fristly install anaconda.
+then,
+1 conda create -n pc_show python=3.6
+2 conda activate pc_show
+3 pip install vtk==8.1.2
+4 pip install mayavi
+5 pip install PyQt5
+6 pip install opencv-python
+
 cd tools
 python show_box_in_points.py
+
+if An error occurred like: qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "/home/xxx/anaconda3/envs/pc_show/lib/python3.6/site-packages/cv2/qt/plugins" even though it was found.
+just delete it by run: sudo rm -rf /home/xxx/anaconda3/envs/pc_show/lib/python3.6/site-packages/cv2/qt/plugins
+and try again
+
 warning: do not close current Mayavi Scene window, type c in running terminal, 
 it will show next lidar frame with predited 3d boxes in current Mayavi Scene window. 
 
